@@ -42,7 +42,7 @@ public class Algorithm3 {
             }
         }
 
-        // 최빈수를 모두 저장할 리스트
+        // 최빈수를 모두 저장할 리스트 -> 최빈수 중복처리
         List<Integer> modeList = new ArrayList<>();
         for (int i = 0; i < mode.length; i++) {
             if (mode[i] == max) {
